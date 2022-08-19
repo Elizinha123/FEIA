@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.scss"
+import Becobeco from './componentes/becobeco'
+import Contador from './componentes/contador'
+import VariavelEstado from './VariavelEstado/index'
+import Calculadore from "./componentes/Calculadora"
+import SituacaoAluno from "./pages/SituacaoAluno"
+import Bocoboco from "./pages/Renderizacao"
+import Tarefa from "./pages/Tarefa"
+import ItemTarefa from "./componentes/itemTarefa"
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div ClassName="pag-p">
+      Estudando ReactJS | Componentes
+      <div>
+        <Becobeco titulo="t" numero = "1" alinhamento="direita" />
+        <Becobeco titulo="t" numero = "2" alinhamento="esquerda"/>
+        <Becobeco titulo="t2" numero = "3"  alinhamento="baixo"/>
+
+        <Contador/>
+        <VariavelEstado />
+        <hr></hr>
+        <Calculadore/>
+        <hr></hr>
+        <SituacaoAluno/>
+
+        < Bocoboco />
+        <hr></hr>
+        <Tarefa/>
+        <ItemTarefa/>
+      </div>
     </div>
   );
 }

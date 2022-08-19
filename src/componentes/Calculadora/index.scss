@@ -1,0 +1,43 @@
+.p{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .aj{
+      background-color: rgb(90, 90, 90) ;
+      width: 16em;
+      padding: 1.2em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+    }
+
+    .a{
+        margin-top: 1.2em;
+        margin-bottom: 7em;
+    }
+
+    .lt1{
+        font-family: 'c';
+        color: aliceblue;
+    }
+
+    .lt2{
+        font-family: 'c';
+    }
+
+    .resu{
+        margin-top: 0.3em;
+    }
+
+    .telinha{
+        background-color: rgba(98, 161, 56, 0.671);
+        border: none;
+        border-radius: 5px;
+        padding: 0.3em;
+    }
+    
+}

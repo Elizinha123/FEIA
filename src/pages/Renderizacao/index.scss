@@ -1,0 +1,61 @@
+.pagina-r {
+    .NanatsuNoTazai {
+        background-color: orange;
+        color: white;
+    }
+
+    .TokyoRevengers{
+        background-color: rgb(202, 57, 0);
+        color: white;
+    }
+
+    .Kakegurui{
+        background-color: rgb(161, 0, 0);
+        color: white;
+    }
+
+    .BokuNoHero{
+        background-color: rgb(19, 161, 0);
+        color: white;
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+        font-size: 2em;
+        color: white;
+        font-family: 'A';
+      }
+
+      .centered {
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .meio{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        margin-bottom: 2em;
+      }
+
+      .botao-r{
+        font-family: 'A';
+        font-size: 0.9em;
+        border-radius: 20px;
+        border: none;
+        padding: 1.3em;
+        background-color: rgb(199, 45, 45);
+        color: white;
+      }
+
+     .botao-r:hover{
+        cursor: pointer;
+     }
+
+     h1{
+        font-family: 'A';
+     }
+}      
