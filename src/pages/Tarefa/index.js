@@ -1,6 +1,6 @@
 import './index.scss'
 import {useState} from 'react'
-import ItemTarefa from '../../componentes/itemTarefa';
+
 
 export default function Tarefinha(){
     const[tarefa, setTarefa] = useState('');
@@ -25,9 +25,13 @@ export default function Tarefinha(){
         <button onClick={addTarefinha}>Adicionar</button>
          </div>
 
+
          <ul>
-            {lista.map(item=> 
-            <ItemTarefa item = {item} removerTarefa = {removerTarefa}/>
+            {lista.map(item => 
+             <li>
+                {item}
+                <span onClick={e => removerTarefa(item) }>(x)</span>
+             </li>
                
             )}
          </ul>

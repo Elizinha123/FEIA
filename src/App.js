@@ -6,7 +6,7 @@ import Calculadore from "./componentes/Calculadora"
 import SituacaoAluno from "./pages/SituacaoAluno"
 import Bocoboco from "./pages/Renderizacao"
 import Tarefa from "./pages/Tarefa"
-import ItemTarefa from "./componentes/itemTarefa"
+
 
 function App() {
   
@@ -28,7 +28,7 @@ function App() {
         < Bocoboco />
         <hr></hr>
         <Tarefa/>
-        <ItemTarefa/>
+      
       </div>
     </div>
   );
